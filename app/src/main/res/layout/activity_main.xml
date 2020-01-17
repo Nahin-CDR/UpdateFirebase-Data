@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:id="@+id/timeID"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Current time"
+        android:textColor="#0BE014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:inputType="number"
+        android:maxLength="11"
+        android:id="@+id/phone_numberID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="My Phone Number"/>
+
+
+
+    <!--Date insertion starts -->
+
+    <EditText
+        android:id="@+id/date_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Date"/>
+
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/nameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="My Name"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_margin="50dp"
+        android:id="@+id/submit_button_id"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:layout_margin="50dp"
+        android:id="@+id/next_button_id"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Next"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/studentListId">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "132308237189",
+    "firebase_url": "https://updatefirebase-15ffe.firebaseio.com",
+    "project_id": "updatefirebase-15ffe",
+    "storage_bucket": "updatefirebase-15ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132308237189:android:ab4fc66a918102590522ec",
+        "android_client_info": {
+          "package_name": "com.nahin.updatefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132308237189-h4hkbr37jn13o8qpam3jnu7qb9sb7232.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nahin.updatefirebase",
+            "certificate_hash": "c21735d1cd8155d5d0027512c40def83529336de"
+          }
+        },
+        {
+          "client_id": "132308237189-dngnmkklckh622j7pu5olg8vugcn5cs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxM8EweOg6aHbmH8VQ9nb4QzM_0f9P-UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132308237189-dngnmkklckh622j7pu5olg8vugcn5cs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
